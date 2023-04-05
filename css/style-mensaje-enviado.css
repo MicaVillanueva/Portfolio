@@ -1,0 +1,68 @@
+:root {
+    --color-de-fondo : #f6eff9;
+    --color-de-menu : #f7eafe;
+    --color-de-link : #78727c ; 
+    --color-de-title : #444046;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo) ;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.menu {
+	width: 100%;
+    height: 80px;
+	margin: 0 auto;
+}
+
+.menu__title {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.menu__list__items {
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    margin: 0 40px 0 10px; 
+    border: 2px solid;
+    border-radius: 5px; 
+}
+
+.menu__list__items__email {
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    margin: 0 40px 0 10px; 
+    color: black;
+}
+
+.mensaje-enviado {
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    color: white;
+    border: 1px solid  #266da7;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #266da7;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.footer {
+    margin-top: 260px;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-de-link);
+}
